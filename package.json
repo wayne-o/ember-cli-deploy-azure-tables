@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-azure-tables",
-  "version": "0.0.0",
+  "version": "0.4.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon",
@@ -23,7 +23,8 @@
   "dependencies": {
     "azure-storage": "^2.10.2",
     "ember-cli-babel": "^6.6.0",
-    "ember-cli-deploy-plugin": "^0.2.9"
+    "ember-cli-deploy-plugin": "^0.2.9",
+    "rsvp": "^3.0.18"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
