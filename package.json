@@ -20,7 +20,9 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0"
+    "azure-storage": "^2.10.2",
+    "ember-cli-babel": "^6.6.0",
+    "ember-cli-deploy-plugin": "^0.2.9"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
