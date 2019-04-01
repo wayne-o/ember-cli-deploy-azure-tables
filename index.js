@@ -61,6 +61,7 @@ module.exports = {
       },
 
       fetchRevisions: function(context) {
+        console.log('ember-cli-deploy::fetchRevisions');
         return this._list(context).then(function(revisions) {
           return {
             revisions: revisions
