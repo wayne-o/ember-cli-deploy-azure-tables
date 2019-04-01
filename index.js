@@ -13,7 +13,7 @@ var AZURE_TABLE_NAME        = 'emberdeploy';
 var AZURE_MANIFEST_TAG      = 'manifest';
 
 module.exports = {
-  name: 'ember-deploy-azure-tables',
+  name: 'ember-cli-deploy-azure-tables',
   createDeployPlugin: function(options) {
     var DeployPlugin = DeployPluginBase.extend({
       name: options.name,
